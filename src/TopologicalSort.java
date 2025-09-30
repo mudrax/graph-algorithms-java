@@ -95,8 +95,6 @@ public class TopologicalSort {
         int pairsToAdd = 0;
         pairsToAdd = sc.nextInt();
 
-//        sc.close();
-
         System.out.println("Enter the graph...");
         takeInput(pairsToAdd*2);
         System.out.println(rawInput.toString());
